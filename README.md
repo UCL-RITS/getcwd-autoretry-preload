@@ -17,7 +17,10 @@ It's only the one C file, but so that you don't have to remember the flags for b
 ```
 $ make
 gcc -O2 -shared -fPIC -o getcwd-autoretry-preload.so getcwd-autoretry-preload.c
-$
+
+$ make INSTALL_PATH=/some/path install
+install -d /some/path
+install getcwd-autoretry-preload.so /some/path
 ```
 
 The C code was sourced from a copy provided by Nathan Dauchy to the Intel HPDD JIRA tracker, here: <https://jira.hpdd.intel.com/browse/LU-9735>
