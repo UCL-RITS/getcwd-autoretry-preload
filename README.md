@@ -23,6 +23,6 @@ install -d /some/path
 install getcwd-autoretry-preload.so /some/path
 ```
 
-The C code was sourced from a copy provided by Nathan Dauchy to the Intel HPDD JIRA tracker, here: <https://jira.hpdd.intel.com/browse/LU-9735>
+The C code was sourced from a copy provided by Nathan Dauchy to the [Intel HPDD JIRA tracker as LU-9735](<https://jira.hpdd.intel.com/browse/LU-9735>) which has since been [migrated to the Whamcloud JIRA tracker under the same ID](https://jira.whamcloud.com/browse/LU-9735).
 
 
